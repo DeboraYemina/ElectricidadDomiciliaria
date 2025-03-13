@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+#servicios img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+header {
+    background-image: url('images/banner.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilo para el botón flotante de WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;  /* Distancia desde el borde inferior */
+    right: 20px;   /* Distancia desde el borde derecho */
+    z-index: 1000; /* Asegura que quede sobre otros elementos */
+  }
+  
+  .whatsapp-float img {
+    width: 60px;  /* Tamaño del ícono */
+    height: 60px; /* Tamaño del ícono */
+    border-radius: 50%; /* Redondea las esquinas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar el ícono */
+    transition: transform 0.3s ease;
+  }
+  
+  .whatsapp-float img:hover {
+    transform: scale(1.1); /* Efecto de agrandamiento cuando pasa el mouse */
+  }
+  

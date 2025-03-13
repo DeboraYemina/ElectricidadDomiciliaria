@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Electricista en Berazategui - Servicio Profesional</title>
+    <meta name="description" content="Electricista domiciliario en Berazategui. Instalaciones, reparaciones y urgencias 24hs. Contactanos al [Teléfono].">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Electricista Berazategui</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Electricista Profesional en Berazategui</h1>
+            <p class="lead">Instalaciones, reparaciones y urgencias eléctricas 24hs</p>
+            <a href="#contacto" class="btn btn-light btn-lg">Solicitar Servicio</a>
+        </div>
+    </header>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Nuestros Servicios</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/instalaciones.jpg" class="img-fluid rounded-circle" alt="Instalaciones Eléctricas">
+                    <h4>Instalaciones</h4>
+                    <p>Instalaciones eléctricas seguras y eficientes para hogares y negocios.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/reparaciones.jpg" class="img-fluid rounded-circle" alt="Reparaciones Eléctricas">
+                    <h4>Reparaciones</h4>
+                    <p>Solucionamos problemas eléctricos en el menor tiempo posible.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/urgencias.jpg" class="img-fluid rounded-circle" alt="Urgencias Eléctricas">
+                    <h4>Urgencias 24hs</h4>
+                    <p>Atendemos emergencias eléctricas en cualquier horario.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form action="contacto.php" method="POST">
+                        <div class="mb-3">
+                            <label class="form-label">Nombre</label>
+                            <input type="text" class="form-control" name="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Teléfono</label>
+                            <input type="text" class="form-control" name="telefono" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Mensaje</label>
+                            <textarea class="form-control" name="mensaje" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Icon -->
+    <a href="https://wa.me/5491130878164" target="_blank" class="whatsapp-float">
+        <img src="images/WhatsApp_icon.png" alt="WhatsApp" />
+    </a>
+  
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Electricista en Berazategui - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
